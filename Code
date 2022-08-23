@@ -1,0 +1,4 @@
+%matplotlib inline
+import pandas as pd
+data = pd.read_csv("E:\Pfolio\ARIMA\electrical_production.csv", index_col = 0)
+data.head()
